@@ -2,7 +2,7 @@
 body {
   background: linear-gradient(339deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 70%, rgba(2,83,13,1) 100%);
   font-size: 16px;
-  height: 100vh;
+  height: 110vh;
 }
 
 *{
@@ -51,17 +51,17 @@ body {
         justify-content: center;
         align-items: center;
         background: white;
-        margin-left: 250px;
+        margin-left: 220px;
         margin-top: 28px;
         font-size: 25px;
         border: linear-gradient(339deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 70%, rgba(2,83,13,1) 100%);
    }
 
    .credit{
-        margin-left: 60px;
+        margin-left: 50px;
         margin-top: 40px;
         height: 200px;
-        width: 70%;
+        width: 80%;
         background-image: radial-gradient( circle 311px at 8.6% 27.9%,  rgba(62,147,252,0.57) 12.9%, rgba(239,183,192,0.44) 91.2% );
         border-radius: 10px;
         color: white;
@@ -123,7 +123,7 @@ body {
         align-items: center;
         justify-content: center;
         border-radius: 8px;
-        margin-left: 35px;
+        margin-left: 30px;
         color: whitesmoke;
         opacity: 70%;
    }
@@ -131,7 +131,7 @@ body {
    .btn p{
         color: white;
         opacity: 80%;
-        margin-left: 35px;
+        margin-left: 30px;
         margin-top: 10px;
    }
 
@@ -150,7 +150,6 @@ body {
     align-items: center;
     justify-content: center;
     border-radius: 8px;
-    margin-left: 30px;
     color: whitesmoke;
     opacity: 70%;
     margin-left: 50px;
@@ -216,7 +215,7 @@ body {
 .info2 span{
     font-size: 28px;
     margin-top: 40px;
-    margin-left: 170px;
+    margin-left: 140px;
 }
 
 .mj1 img{
@@ -230,7 +229,7 @@ body {
 
 .info3{
     font-size: 28px;
-    margin-left: 150px;
+    margin-left: 120px;
 }
 
 .menu{
