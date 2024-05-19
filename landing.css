@@ -1,0 +1,246 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro:400,500,600,700|Source+Sans+Pro:400,600,700&display=swap");
+body {
+  background: linear-gradient(339deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 70%, rgba(2,83,13,1) 100%);
+  font-size: 16px;
+  height: 100vh;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 738px) {
+   
+   .nav{
+        display: flex;
+   }
+   
+   .txt{
+        display: flex;
+        flex-direction: column;
+   }
+
+   .txt span{
+        font-size: 28px;
+        color: white;
+        font-weight: 400;
+        margin-left: 30px;
+        margin-top: 30px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 100;
+        font-style: normal;
+   }
+
+   .txt a{
+        font-size: 14px;
+        color: white;
+        margin-left: 33px;
+        margin-top: 10px;
+        opacity: 50%;
+        font-family: "Mukta", sans-serif;
+        font-weight: 200;
+        font-style: normal;
+   }
+
+   .profile{
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: white;
+        margin-left: 250px;
+        margin-top: 28px;
+        font-size: 25px;
+        border: linear-gradient(339deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 70%, rgba(2,83,13,1) 100%);
+   }
+
+   .credit{
+        margin-left: 60px;
+        margin-top: 40px;
+        height: 200px;
+        width: 70%;
+        background-image: radial-gradient( circle 311px at 8.6% 27.9%,  rgba(62,147,252,0.57) 12.9%, rgba(239,183,192,0.44) 91.2% );
+        border-radius: 10px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+   }
+
+   .first{
+        display: flex;
+        align-items: center;
+        height: 40px;
+        margin-top: 30px;
+   }
+
+   .first span{
+        font-family: "Poppins", sans-serif;
+        margin-left: 18px;
+   }
+
+   .first img{
+        height: 25px;
+        margin-left: 120px;
+        margin-top: 5px; 
+
+   }
+
+   .num pre{
+        margin-top: 30px;
+        margin-left: 18px;
+   }
+
+   .foot{
+        margin-top: 20px;
+        margin-left: 18px;
+   }
+
+   .foot a{
+        font-size: 12px;
+        opacity: 60%;
+   }
+
+   .foot p{
+        font-size: 25px;
+   }
+
+   .trans{
+        display: flex;
+        margin-top: 70px;
+        align-items: center;
+    
+   }
+
+   .btn span{
+        height: 55px;
+        width: 55px;
+        background: rgb(24, 24, 24);
+        font-size: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 8px;
+        margin-left: 35px;
+        color: whitesmoke;
+        opacity: 70%;
+   }
+
+   .btn p{
+        color: white;
+        opacity: 80%;
+        margin-left: 35px;
+        margin-top: 10px;
+   }
+
+   .btn pre{
+        color: white;
+        opacity: 80%;
+        margin-left: 30px;
+        margin-top: 10px;
+   }
+   .btn2 span{
+    height: 55px;
+    width: 55px;
+    background: rgb(24, 24, 24);
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    margin-left: 30px;
+    color: whitesmoke;
+    opacity: 70%;
+    margin-left: 50px;
+}
+
+.btn2 p{
+    color: white;
+    opacity: 80%;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.btn2 pre{
+    color: white;
+    opacity: 80%;
+    margin-left: 30px;
+}
+
+.history{
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.head span{
+    font-size: 28px;
+    margin-left: 28px;
+}
+
+.head p{
+    font-size: 16px;
+    opacity: 60%;
+    margin-right: 40px;
+    
+}
+
+.main{
+    display: flex;
+    align-items: center;
+}
+
+.mj img{
+    height: 105px;
+}
+
+
+.info p{
+    font-size: 24px;
+}
+
+.info a{
+    font-size: 12px;
+    opacity: 60%;
+}
+
+.info2 span{
+    font-size: 28px;
+    margin-top: 40px;
+    margin-left: 170px;
+}
+
+.mj1 img{
+    height: 105px;
+}
+
+.mj2 img{
+    height: 105px;
+    margin-left: -10px;
+}
+
+.info3{
+    font-size: 28px;
+    margin-left: 150px;
+}
+
+.menu{
+    height: 45px;
+    width: 100%;
+    border: 2px solid white;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+}
